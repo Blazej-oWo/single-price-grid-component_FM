@@ -63,9 +63,7 @@ h2, .community p  {
     padding: 30px 0 0 50px;
     padding-top: 10px;
   }
-  .about {
-    background-color:  hsl(179, 47%, 52%);
-  }
+ 
  
   h3{
     margin-top:20px;
@@ -73,20 +71,39 @@ h2, .community p  {
   }
   
   .pricesub {
+    position: relative;
     font-size: 31px;
-    margin-top: 10px;
+    margin: 10px 0;
+    
   }
-  .pricesub span {
-    display: inline-block;
+   .price {
+    position: absolute;
+    color:hsl(180,62%,69%);
     font-size: 16px;
-
+    margin: 7px 0px 0px 15px;
   }
+  
   button {
     background-color:hsl(71, 73%, 54%);
-    margin-top: 15px;
+    margin-top: 25px;
     color:white;
     border-radius: 10px;
     width:240px;
     height: 50px;
-    font-size: 20px;
+    font-size: 16px;
+    font-weight: 700;
+  }
+
+  .about {
+    position: relative;
+    background-color:  hsl(179, 47%, 52%);
+    color:white;
+    padding: 9px 0 0 50px;
+    width: 1100px;
+  }
+  .about h3 {
+    margin: 25px 0px 20px 0px;
+  }
+  .about p {
+    line-height: 21px;
   }
