@@ -116,24 +116,54 @@ h2, .community p  {
      section {
       display: flex;
       flex-direction: column;
-      width: 210px;
-      margin:20px -35px;
+      width: 340px;
+      margin:-10px 20px;
+      
   
      }
      .community {
       width:300px;
       height:500px;
       }
+      .community h1 {
+      font-size: 22px;
+      margin:2px -23px;
+      }
+      .community h2 {
+        font-size: 16px;
+        text-align: left;
+        margin:16px 26px;
+      }
       .community p{
-        width:200px;
+        width:250px;
+        margin: 10px 0 20px 26px;
+        font-size: 13px;
+        line-height: 30px;
       }
      .container {
         display: flex;
         flex-direction: column;
        }
        .subscript {
-        width: 300px;
+        border-radius:0 0;
+       width: 300px;
+       }
+       .subscript h3, .subscript p {
+        margin:15px 0px 0px -20px;
+       }
+       .subscript button {
+        margin:40px 0px 0px -20px;
        }
       .about{
-        width: 300px;
+        width: 300px; 
+        border-radius: 0 0 5px 5px;
       }
+      .about p , .about h3{
+        margin: 10px 0 20px -15px;
+      }
+      footer{
+        margin:800px 0;
+        font-size: 12px;
+        
+      }
+    }
